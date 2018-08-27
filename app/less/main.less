@@ -1,0 +1,140 @@
+@font-face { 
+	font-family: "GothaProMed";
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/GothamCyrillic/GothaProMed.eot?#iefix') format("embedded-opentype"), url('../fonts/GothamCyrillic/GothaProMed.otf') format("otf");
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.wraper{
+	padding-top: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.wraper{
+	.flex{
+		margin-right: 1px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.flex-item{
+		background: #404A58;
+		min-height: 200px;
+		width: 100px;
+		color:white;	
+		display: flex;
+		border-bottom: solid black;
+		border-width: 2px;
+		transition: background .5s, color .5s;
+		Justify-content:center;	
+	}	
+	.flex-item:hover {
+		cursor: pointer;
+		background: #fb6362;
+		border-color:black;
+		outline: none;
+		}
+
+
+	.container{	
+		display: flex;
+		flex-direction: row;
+	}
+	.container-info{
+		background: #FFFFFF;
+		max-height: 603px;
+		width: 600px;
+		display: flex;
+		flex-direction: column;
+	}
+	.intro{
+		color:black;
+		font-size: 30px;
+		font-family: "GothaProMed";
+		padding: 20px 100px;
+	}
+	.article{
+		display: flex;
+		flex-direction: row;
+	}
+	.number{
+		color: black;
+		font-size: 20px;
+		font-family: "GothaProMed";
+		font-weight: bold;
+		padding: 0px 10px 40px 100px;
+	}
+	.view{
+			color: #a0a0a0;
+			font-size: 20px;
+			font-family: "GothaProMed";
+			font-weight: lighter;
+		}
+	
+	.article-info{
+		max-width: 460px;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: left;
+		padding: 0px 20px 40px 40px;
+
+	}
+	.preview{
+		color: #a0a0a0;
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: "GothaProMed";
+		line-height: 1.5;
+	}
+
+	.readMore{
+		color: #fb6362;
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: "GothaProMed";
+		text-decoration: none;
+		padding: 30px 30px 0 0;
+	}
+	.readMore:hover{
+		color: black;
+		text-decoration: underline;
+	}
+
+
+	.container-img{
+		background: url('../img/lake.png') no-repeat center;
+		background-size: 100%;
+		min-height: 603px;
+		width: 600px;
+		font-size: 40px;
+		color:white;
+		display: flex;
+	}
+	.article-aside{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		justify-content: flex-end;
+		padding: 0px 0px 30px 390px;
+	}
+	.commit-count{
+		font-size: 21px;
+		color: white;
+		font-weight: lighter;
+		font-family: "GothaProMed";
+		padding-right: 20px;
+	}
+	.like-count{
+		font-size: 21px;
+		color: white;
+		font-weight: lighter;
+		font-family: "GothaProMed";
+		
+	}
+}
