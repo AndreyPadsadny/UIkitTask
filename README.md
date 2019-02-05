@@ -5,5 +5,5 @@
 
 Steps:
 
-Download repository
-Run index.html
+1. Download repository.
+2. Run index.html.
